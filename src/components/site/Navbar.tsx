@@ -43,7 +43,7 @@ export function Navbar() {
             <img src={logo} alt="Serendib" className="h-9 w-9 rounded-lg object-cover" />
             <span className="font-display text-base font-semibold tracking-tight">
               Serendib
-              <span className="text-muted-foreground font-normal hidden sm:inline"> / Software</span>
+              <span className="block text-xs font-normal text-muted-foreground mt-0.5">Software Solutions</span>
             </span>
           </Link>
 

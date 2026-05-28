@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Github, Linkedin, Twitter, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Facebook, Mail, MapPin, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function Footer() {
@@ -21,15 +21,15 @@ export function Footer() {
               mobile apps to AI, cloud, and everything in between.
             </p>
             <div className="flex gap-2">
-              {[Github, Linkedin, Twitter, Instagram].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="h-9 w-9 grid place-items-center rounded-lg glass hover:bg-white/10 transition"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
+              <a href="#" className="h-9 w-9 grid place-items-center rounded-lg glass hover:bg-white/10 transition">
+                <Github className="h-4 w-4" />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61577909078210" target="_blank" rel="noopener noreferrer" className="h-9 w-9 grid place-items-center rounded-lg glass hover:bg-white/10 transition">
+                <Facebook className="h-4 w-4" />
+              </a>
+              <a href="#" className="h-9 w-9 grid place-items-center rounded-lg glass hover:bg-white/10 transition">
+                <Linkedin className="h-4 w-4" />
+              </a>
             </div>
           </div>
 
@@ -56,9 +56,9 @@ export function Footer() {
           <div>
             <div className="text-sm font-medium mb-4">Contact</div>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5" /> hello@serendib.dev</li>
-              <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5" /> +94 77 123 4567</li>
-              <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5" /> Colombo, Sri Lanka</li>
+              <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5" /> srendibsoftwaresolutions@gmail.com</li>
+              <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5" /> +94 74 018 7747</li>
+              <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5" /> Alawwa, Sri Lanka</li>
             </ul>
           </div>
         </div>
