@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Serendib Software Solutions — Premium Software, AI & Cloud" },
+      { title: "Serendib Software Solutions" },
       { name: "description", content: "Serendib Software Solutions builds custom software, web & mobile apps, AI and cloud platforms for ambitious global teams." },
       { name: "author", content: "Serendib Software Solutions" },
       { property: "og:title", content: "Serendib Software Solutions" },
-      { property: "og:description", content: "Premium software engineering for ambitious teams." },
+      { property: "og:description", content: "Serendib Software Solutions builds custom software, web & mobile apps, AI and cloud platforms for ambitious global teams." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Serendib Software Solutions" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Serendib Software Solutions" },
+      { name: "twitter:description", content: "Serendib Software Solutions builds custom software, web & mobile apps, AI and cloud platforms for ambitious global teams." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cd70ca23-460f-43dd-96c3-81908e510541" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cd70ca23-460f-43dd-96c3-81908e510541" },
     ],
     links: [
       {
