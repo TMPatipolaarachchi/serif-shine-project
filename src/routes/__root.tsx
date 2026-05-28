@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Serendib Software Solutions — Premium Software, AI & Cloud" },
+      { name: "description", content: "Serendib Software Solutions builds custom software, web & mobile apps, AI and cloud platforms for ambitious global teams." },
+      { name: "author", content: "Serendib Software Solutions" },
+      { property: "og:title", content: "Serendib Software Solutions" },
+      { property: "og:description", content: "Premium software engineering for ambitious teams." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "Serendib Software Solutions" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
